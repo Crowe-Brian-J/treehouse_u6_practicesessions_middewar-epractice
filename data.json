@@ -7,6 +7,10 @@
     {
       "name": "rohald",
       "email": "rohald@example.com"
+    },
+    {
+      "name": "mr nobody",
+      "email": "nobody@doesntexist.com"
     }
   ]
 }
