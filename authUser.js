@@ -13,7 +13,7 @@ module.exports = authUser = (req, res, next) => {
   // 5-a. Check if the username query is equal to any of the users' name properties
   //     HINT: toLowerCase()
   const user = users.find((u) => {
-    u.name.toLowerCase() === username.toLowerCase()
+    return u.name.toLowerCase() === username.toLowerCase()
   })
   if (user) {
     // 5-b. If it does, create a currentUser property on the request object
